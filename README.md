@@ -48,17 +48,17 @@ Four phases. The timeline is defined by mastery, not by calendar.
 
 ## Current Progress
 
-*Last updated: 2026-10-17*
+*Last updated: 2026-10-20*
 
-| Subject                | Main resource                    | Progress     | Practicum                   |
-| ---------------------- | -------------------------------- | ------------ | --------------------------- |
-| **Python**             | Stepik — Generation Python       | 389 / 2438   | Drill: branch classifier    |
-| **Mathematics**        | Mordkovich, *Algebra 7*          | §5 tail      | Drill: alloys, 2 passed     |
-| **Linux / Bash**       | Shotts, *The Linux Command Line* | Chapters 1–4 | Unit 2 — file operations    |
-| **Computer Science**   | Bosova, *Informatics 6*          | 100 / 215    | Experiment: algorithm forms |
-| **English — grammar**  | Murphy, *Grammar in Use*         | Unit 5       | Drill: U5 clean repeat      |
-| **English — practice** | English File 4e Beginner         | Unit 2B      | Packet: 2B questions        |
-| **Pet project**        | Phase 0 — `expense_tracker`      | —            | CLI                         |
+| Subject                | Main resource                    | Progress                                              | Practicum                   |
+| ---------------------- | -------------------------------- | ----------------------------------------------------- | --------------------------- |
+| **Python**             | Stepik — Generation Python       | 389 / 2438                                            | Drill: branch classifier    |
+| **Mathematics**        | Mordkovich, *Algebra 7*          | §5 tail                                               | Drill: alloys, 2 passed     |
+| **Linux / Bash**       | Shotts, *The Linux Command Line* | Chapters 1–4                                          | Unit 2 — file operations    |
+| **Computer Science**   | Bosova, *Informatics 6*          | 100 / 215                                             | Experiment: algorithm forms |
+| **English — grammar**  | Murphy, *Grammar in Use*         | Unit 5                                                | Drill: U5 clean repeat      |
+| **English — practice** | English File 4e Beginner         | Unit 2B                                               | Packet: 2B questions        |
+| **Pet project**        | Phase 1 — Financial Navigator    | Repo initialized, Docs ready, Data models in progress | Python 3, CLI, JSON         |
 
 *Full topic-level detail lives in the knowledge maps.*
 
