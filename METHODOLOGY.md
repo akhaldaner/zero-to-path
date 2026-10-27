@@ -62,7 +62,7 @@ The petition form is fixed in the master config and has this shape:
 
 The dispatcher reads the daily log, validates petitions against artifact existence and system rules, and generates a dispatcher response. The response contains confirmations, missing evidence, flags, next actions, ready map rows, and an updated dispatcher state.
 
-The learner copies map rows into knowledge maps and dispatcher state into `Daily/Dispatcher_state.md`.
+The learner copies map rows into knowledge maps and dispatcher state into `Daily/dispatcher_state.md`.
 
 Evidence is not a manual report field. It is a service trail: artifact links, test results, written-answer approval, verification method, commits, outputs, and error-lab status.
 
