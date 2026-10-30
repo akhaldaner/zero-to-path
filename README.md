@@ -4,8 +4,8 @@ This is a personal experiment: can a person starting from zero become an enginee
 
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/status-phase%200-brightgreen?style=flat-square)
-![Updated](https://img.shields.io/badge/updated-2026--10--28-lightgrey?style=flat-square)
-![System](https://img.shields.io/badge/system-Reloaded%20v1-blue?style=flat-square)
+![Updated](https://img.shields.io/badge/updated-2026--10--30-lightgrey?style=flat-square)
+![System](https://img.shields.io/badge/system-Reloaded%20v1.2-blue?style=flat-square)
 
 ## What this is
 
@@ -19,16 +19,17 @@ This repository describes the public method. The learning vault, private notes, 
 
 ## Why publish
 
-If small steps work, this repository will show it. If they don't, it will show that too. Either outcome is worth documenting.
+If small steps work, this repository will show it. If they don’t, it will show that too. Either outcome is worth documenting.
 
 ## How it works
 
-Four pillars:
+Five pillars:
 
-1. Knowledge maps — one per subject. The single source of truth for topic status.
-2. Artifact IDs — stable identifiers for notes, drills, units, decisions, and exams.
-3. Petition-based mastery — subject mentors propose `mastered`; dispatchers confirm it.
-4. Low-bureaucracy operation — the learner keeps one daily log; AI generates petitions, dispatcher responses, and handover state.
+- Knowledge maps — one per subject. The single source of truth for topic status.
+- Artifact IDs — stable identifiers for notes, drills, units, decisions, and exams.
+- Teacher-guide mentors — AI mentors explain before they audit, and verify understanding without turning learning into an inspection regime.
+- Petition-based mastery — subject mentors propose `mastered`; the dispatcher confirms it by validating the petition and system state, not by rereading every artifact by default.
+- Low-bureaucracy operation — the learner keeps one daily log; AI generates petitions, dispatcher responses, and handover snapshots only when needed.
 
 Full breakdown → [METHODOLOGY.md](METHODOLOGY.md)
 
@@ -40,26 +41,26 @@ Four phases. The timeline is defined by mastery, not by calendar.
 
 | Phase | Goal | Core stack | Status |
 |---|---|---|---|
-| 0 — Foundation | Base in math, CS, language; first code | Python basics, Linux CLI, school-level algebra, CS fundamentals, English A1→B1 | ← current |
+| 0 — Foundation | Base in math, CS, language; first code | Python basics, Linux CLI, school-level algebra, CS fundamentals, English A1→B1, FinG CLI polygon | ← current |
 | 1 — Backend | Junior Backend Developer | Python OOP, FastAPI, PostgreSQL, SQL, Docker, REST | pending |
 | 2 — Systems | Professional backend, first C++ | C++ memory, STL, linear algebra | pending |
 | 3 — AI Infrastructure | Engineer for AI systems | C++ concurrency, CUDA/OpenCL, GPU architecture, pybind11 | pending |
 
 ## Current Progress
 
-Last updated: 2026-10-28.
+Last updated: 2026-10-30.
 
 This is an operational snapshot. Knowledge maps are the source of truth.
 
 | Subject            | Active source                               | Current focus                                   | Operational state |
 | ------------------ | ------------------------------------------- | ----------------------------------------------- | ----------------- |
-| Python             | Stepik — Generation Python                  | 4.3 nested/cascaded conditions, elif            | in_progress       |
-| Mathematics        | Mordkovich, Algebra 7                       | §5 percents, alloys, ores; examples 9–13        | in_progress       |
-| Linux / Bash       | Shotts, The Linux Command Line + SadServers | Unit 2 file operations and wildcards; tasks 7–8 | debt              |
-| Computer Science   | Bosova, Informatics 6                       | §14 algorithms                                  | in_progress       |
+| Python             | Stepik — Generation Python                  | 4.3 nested/cascaded conditions, elif            | pending migration |
+| Mathematics        | Mordkovich, Algebra 7                       | §5 percents, alloys, ores; examples 9–13        | pending migration |
+| Linux / Bash       | Shotts, The Linux Command Line + SadServers | Unit 2 file operations and wildcards; tasks 7–8 | pending migration |
+| Computer Science   | Bosova, Informatics 6                       | §14 algorithms                                  | pending migration |
 | English — grammar  | Murphy, Essential Grammar in Use            | Unit 5 migration candidate                      | pending migration |
-| English — practice | English File 4e Beginner                    | Unit 2B WH-questions with be                    | debt              |
-| Pet project        | Financial Navigator, short FinG             | Phase 0 CLI, private repo, roadmap in repo      | in_progress       |
+| English — practice | English File 4e Beginner                    | Unit 2B WH-questions with be                    | pending migration |
+| Pet project        | Financial Navigator, short FinG             | Stage 0 CLI, private repo, roadmap in repo      | pending migration |
 
 ## System structure
 
@@ -118,6 +119,7 @@ vault/
 ```
 
 Each subject has exactly one map. Notes without a map do not exist in the active system.
+
 ## Public files
 
 - `README.md`
